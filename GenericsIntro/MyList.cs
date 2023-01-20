@@ -26,7 +26,15 @@ namespace GenericsIntro
             }
             items[items.Length - 1] = item;         //items dizisinin son elemanı = item Yani eklenmek istenen eleman dizinin son eleman yerine eklendi. 
         }
+        public int Length       //items dizisinin uzunluğunu verir
+        {
+            get { return items.Length; }
+        }
 
+        public T[] Items        //items dizisinin içeriğini verir
+        {
+            get { return items;  }
+        }
            
 
     }
